@@ -40,8 +40,13 @@ console.log("A template literal uses backslashes and can evaluate expresions lik
 //UNARY OPERATORS
 typeof
 
-
 //BOOLEAN
-true
-false
+console.log(typeof true); //true
+console.log(typeof false); //false
+console.log(typeof (1 < 2)); //comparison, less than, true
+console.log(typeof (1 < 0)); //comparison, less than, false
+console.log(typeof (2 > 1)); //comparison greater than
+//true
+console.log(typeof (2 == 2)); //comparison equal to
+console.log(typeof )
 
