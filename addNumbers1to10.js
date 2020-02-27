@@ -9,9 +9,10 @@ while(count <= 10) {
 }
 
 console.log(total);
+//55
 
 
-//The sum and range operations can shorten this code
+//if we happened to have the convenient operations sum and range available, we could shorten this code
 
 console.log(sum(range(1,10)));
 
